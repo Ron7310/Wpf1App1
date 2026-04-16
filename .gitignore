@@ -13,6 +13,12 @@
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
+.svn/
+*.[Dd][Ll][Ll]
+*.[Jj][Pp][Gg]
+*.[Jj][Pp][Ee][Gg]
+*.[Pp][Nn][Gg]
+*.[Bb][Mm][Pp]
 # Mono auto generated files
 mono_crash.*
 
