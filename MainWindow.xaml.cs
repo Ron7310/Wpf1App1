@@ -4,7 +4,7 @@ using System.Windows;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for MainWindow.xaml - further testing.
     /// </summary>
     public partial class MainWindow : Window
     {
