@@ -10,11 +10,13 @@ namespace WpfApp1.ViewModels
     public class MainViewModel : ViewModelBase
     {
         public string Title { get; set; }
-        public string currentTime;
+        public string? currentTime;
+        public object syncLock;
         System.Timers.Timer timer;
 
         public MainViewModel()
         {
+            syncLock = new object();
             Title = "Clock!";
             timer = new System.Timers.Timer();
             timer.Interval = 1000; // 1 second
@@ -32,13 +34,13 @@ namespace WpfApp1.ViewModels
 
         private void Timer_Elapsed(object? sender, ElapsedEventArgs e)
         {
-            lock (currentTime)
+            lock (syncLock)
             {
                 SetTime();
             }
         }
 
-        public string CurrentTime
+        public string? CurrentTime
         {
             get
             {

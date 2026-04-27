@@ -13,6 +13,6 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="{Binding CurrentTime}" FontFamily="Comic Sans MS" Foreground="Red" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="{Binding CurrentTime}" FontFamily="Courier New" Foreground="Red" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </Window>
