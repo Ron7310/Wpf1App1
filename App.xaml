@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:WpfApp1"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+         <!-- Changed in the work repo. -->
+         <!-- Actually, *this* is the branch (home changes) modified in the Work (Ron7310) WPF1App1 repo. -->
     </Application.Resources>
 </Application>
